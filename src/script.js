@@ -1,4 +1,5 @@
 function songTypo(response){
+    console.log(response.data.answer);
     new Typewriter('#song-generator', {
     strings: response.data.answer,
     autoStart: true,
