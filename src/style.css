@@ -87,3 +87,10 @@ footer{
     margin-top: 1.5rem;
     font-size: 13px;
 }
+.examples{
+     position: relative;
+    right: 140px;
+    color: rgb(166, 162, 162);
+    font-size: 13px;
+    line-height: 5px;
+}
