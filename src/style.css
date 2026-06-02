@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    text-align: center;
+background-color: rgb(239, 229, 248);
+}
+.contaner{
+    margin: 100px auto;
+    max-width: 500px;
+    width: 600px;
+    outline: 0;
+}
+
+.heading{
+    line-height: 15px;
+    font-size: 24px;
+    font-weight: 30px;
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+.form-contaner{
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+form{
+    display: flex;
+    padding: 5px;
+    background-color: white;
+    justify-content: space-between;
+}
+.searchBox{
+    background-color: transparent;
+    width: 75%;
+    padding: 6px;
+    border: none;
+     outline: 0;
+}
+.searchBox:hover{
+   
+    border-radius: 10px;
+    outline: 1.5px solid blueviolet;
+}
+.submit-button{
+    border: none;
+    outline: 0;
+    background-color: blueviolet;
+    width: 90px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.song-generator{
+    border-left:3px solid blueviolet;
+    background-color: white;
+    margin-top: 1.5rem;
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+}
+.hidden{
+    display: none;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+a{
+    color: blueviolet;
+}
+footer{
+    font-size: 12px;
+}
+footer{
+    margin-top: 1.5rem;
+    font-size: 13px;
+}
